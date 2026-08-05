@@ -4,6 +4,7 @@
  */
 
 import { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { BottomNav } from './components/BottomNav';
 import { DiscoverView } from './components/DiscoverView';
 import { MatchesView } from './components/MatchesView';
@@ -75,6 +76,7 @@ export default function App() {
             {isLoggingIn ? 'Connecting...' : 'Sign in with Google'}
           </button>
         </div>
+        <SpeedInsights />
       </div>
     );
   }
@@ -93,6 +95,7 @@ export default function App() {
         <BottomNav activeTab={activeTab} onChange={setActiveTab} />
         
       </div>
+      <SpeedInsights />
     </div>
   );
 }
