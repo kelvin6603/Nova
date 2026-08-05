@@ -1,0 +1,6 @@
+{
+  "name": "NOVA",
+  "description": "A premium dating app focused on curated compatibility, meaningful connections, and better dates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
